@@ -1,0 +1,300 @@
+# ES translation of CakePHP Application
+# Copyright 2016 Evgeny Gushchin <e@alus.com.mx>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-03-16 22:01+0000\n"
+"PO-Revision-Date: 2016-03-16 16:57-0600\n"
+"Last-Translator: Evgeny Gushchin <e@alus.com.mx>\n"
+"Language-Team: Alus <e@alus.com.mx>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 1.7.1\n"
+
+#: Template/Error/error400.ctp:34 Template/Error/error500.ctp:39
+msgid "Error"
+msgstr "Ошибка"
+
+#: Template/Error/error400.ctp:36
+msgid "The requested address %s was not found on this server."
+msgstr "Запрошенная страница %s не найдена."
+
+#: Template/Error/error500.ctp:37
+msgid "An Internal Error Has Occurred"
+msgstr "Произошла внутренняя ошибка"
+
+#: Controller/Component/AuthComponent.php:454
+msgid "You are not authorized to access that location."
+msgstr "Доступ к этой странице Вам не разрешён."
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr "Отсутствует кука CSRF тоукена"
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr "Не соответствуют тоукены CSRF."
+
+#: Error/ExceptionRenderer.php:249
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: Error/ExceptionRenderer.php:251
+msgid "An Internal Error Has Occurred."
+msgstr "Произошла внутренняя ошибка."
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr "{0,number,#,###.##} кБ"
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr "{0,number,#,###.##} МБ"
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr "{0,number,#,###.##} ГБ"
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr "{0,number,#,###.##} ТБ"
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0,number,integer} байт"
+msgstr[1] "{0,number,integer} байта"
+msgstr[2] "{0,number,integer} байтов"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "{0} с настоящего времени"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "{0} назад"
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} after"
+msgstr "после {0}"
+
+#: I18n/RelativeTimeFormatter.php:82
+msgid "{0} before"
+msgstr "до {0}"
+
+#: I18n/RelativeTimeFormatter.php:113
+msgid "just now"
+msgstr "только что"
+
+#: I18n/RelativeTimeFormatter.php:150
+msgid "about a second ago"
+msgstr "около секунды назад"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a minute ago"
+msgstr "около минуты назад"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about an hour ago"
+msgstr "около часа назад"
+
+#: I18n/RelativeTimeFormatter.php:153;326
+msgid "about a day ago"
+msgstr "около дня назад"
+
+#: I18n/RelativeTimeFormatter.php:154;327
+msgid "about a week ago"
+msgstr "около недели назад"
+
+#: I18n/RelativeTimeFormatter.php:155;329
+msgid "about a year ago"
+msgstr "около года тому назад"
+
+#: I18n/RelativeTimeFormatter.php:165
+msgid "in about a second"
+msgstr "примерно через секунду"
+
+#: I18n/RelativeTimeFormatter.php:166
+msgid "in about a minute"
+msgstr "примерно через минуту"
+
+#: I18n/RelativeTimeFormatter.php:167
+msgid "in about an hour"
+msgstr "примерно через час"
+
+#: I18n/RelativeTimeFormatter.php:168;339
+msgid "in about a day"
+msgstr "примерно через день"
+
+#: I18n/RelativeTimeFormatter.php:169;340
+msgid "in about a week"
+msgstr "примерно через неделю"
+
+#: I18n/RelativeTimeFormatter.php:170;342
+msgid "in about a year"
+msgstr "примерно через год"
+
+#: I18n/RelativeTimeFormatter.php:298
+msgid "today"
+msgstr "сегодня"
+
+#: I18n/RelativeTimeFormatter.php:328
+msgid "about a month ago"
+msgstr "около месяца назад"
+
+#: I18n/RelativeTimeFormatter.php:341
+msgid "in about a month"
+msgstr "примерно через месяц"
+
+#: I18n/RelativeTimeFormatter.php:362
+msgid "%s ago"
+msgstr "%s тому назад"
+
+#: I18n/RelativeTimeFormatter.php:363
+msgid "on %s"
+msgstr "%s"
+
+#: I18n/RelativeTimeFormatter.php:47;125;310
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} год"
+msgstr[1] "{0} года"
+msgstr[2] "{0} лет"
+
+#: I18n/RelativeTimeFormatter.php:51;128;313
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} месяц"
+msgstr[1] "{0} месяца"
+msgstr[2] "{0} месяцев"
+
+#: I18n/RelativeTimeFormatter.php:57;131;316
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} неделя"
+msgstr[1] "{0} недели"
+msgstr[2] "{0} недель"
+
+#: I18n/RelativeTimeFormatter.php:59;134;319
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} день"
+msgstr[1] "{0} дня"
+msgstr[2] "{0} дней"
+
+#: I18n/RelativeTimeFormatter.php:64;137
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} час"
+msgstr[1] "{0} часа"
+msgstr[2] "{0} часов"
+
+#: I18n/RelativeTimeFormatter.php:68;140
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} минута"
+msgstr[1] "{0} минуты"
+msgstr[2] "{0} минут"
+
+#: I18n/RelativeTimeFormatter.php:72;143
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} секунда"
+msgstr[1] "{0} секунды"
+msgstr[2] "{0} секунд"
+
+#: Network/Response.php:1417
+msgid "The requested file was not found"
+msgstr "Запрашиваемый файл не найден"
+
+#: ORM/RulesChecker.php:49
+msgid "This value is already in use"
+msgstr "Это значение уже используется"
+
+#: ORM/RulesChecker.php:83
+msgid "This value does not exist"
+msgstr "Это значение не существует"
+
+#: Utility/Text.php:724
+msgid "and"
+msgstr "и"
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr "Это поле обязательно для заполнения"
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr "Это поле не может быть пустым"
+
+#: Validation/Validator.php:1406
+msgid "The provided value is invalid"
+msgstr "Указанное значение не верно."
+
+#: View/Helper/FormHelper.php:927
+msgid "New %s"
+msgstr "Добавить %s"
+
+#: View/Helper/FormHelper.php:930
+msgid "Edit %s"
+msgstr "Править %s"
+
+#: View/Helper/FormHelper.php:1731
+msgid "Submit"
+msgstr "Отправить"
+
+#: View/Helper/HtmlHelper.php:770
+msgid "Home"
+msgstr "Домой"
+
+#: View/Widget/DateTimeWidget.php:530
+msgid "January"
+msgstr "январь"
+
+#: View/Widget/DateTimeWidget.php:531
+msgid "February"
+msgstr "февраль"
+
+#: View/Widget/DateTimeWidget.php:532
+msgid "March"
+msgstr "март"
+
+#: View/Widget/DateTimeWidget.php:533
+msgid "April"
+msgstr "апрель"
+
+#: View/Widget/DateTimeWidget.php:534
+msgid "May"
+msgstr "май"
+
+#: View/Widget/DateTimeWidget.php:535
+msgid "June"
+msgstr "июнь"
+
+#: View/Widget/DateTimeWidget.php:536
+msgid "July"
+msgstr "июль"
+
+#: View/Widget/DateTimeWidget.php:537
+msgid "August"
+msgstr "август"
+
+#: View/Widget/DateTimeWidget.php:538
+msgid "September"
+msgstr "сентябрь"
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "October"
+msgstr "октябрь"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "November"
+msgstr "ноябрь"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "December"
+msgstr "декабрь"
